@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import { isIdentifier } from 'postcss-selector-parser';
+import Card from '../components/Card';
 
 const IndexPage = () => (
   <Layout>
@@ -33,6 +34,23 @@ const IndexPage = () => (
             />
           </path>
         </svg> 
+      </div>
+    </div>
+    <div className="Cards">
+      <h2>11projects, more coming</h2>
+      <div className="CardGroup">
+        <Card title="Satudora Digital"
+              text="6 members"
+              image={require('../images/wallpaper.jpg')} />
+        <Card title="Satudora Digital"
+              text="16 members"
+              image={require('../images/wallpaper2.jpg')} />
+        <Card title="Satudora Digital"
+              text="62 members"
+              image={require('../images/wallpaper3.jpg')} />
+        <Card title="Satudora Digital"
+              text="4 members"
+              image={require('../images/wallpaper4.jpg')} />
       </div>
     </div>
   </Layout>
