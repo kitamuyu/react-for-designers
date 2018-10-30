@@ -24,13 +24,13 @@ const SectionLogo = styled.img`
 
 const SectionTitleGroup = styled.div`
     display: grid;
-    grid-template-colums: 300px auto;
+    grid-template-columns: 300px auto;
     margin: 0 40px;
     grid-gap: 20px;
     grid-template-rows: auto 100%;
 
     @media (max-width: 720px){
-        grid-template-colums: 1fr;
+        grid-template-columns: 1fr;
     }
 `
 
